@@ -63,13 +63,13 @@ resource "aws_cognito_user_pool_client" "spa" {
 
 resource "aws_cognito_user" "demo" {
   user_pool_id = aws_cognito_user_pool.pool.id
-  username = "Mathias@gmail.com"
+  username = "Wil@gmail.com"
   password = "Duoc2026"
 
   attributes = {
-    email = "Mathias@gmail.com"
+    email = "Wil@gmail.com"
     email_verified = true
-    name = "Mathias"
+    name = "Williams"
   }
   message_action = "SUPPRESS"
   
